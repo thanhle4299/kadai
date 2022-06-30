@@ -7,3 +7,5 @@ print(x)
 y = np.exp(-x**2 / 2) / np.sqrt(2 * np.pi)
 print(y)
   
+plt.plot(x, y)			
+plt.show()	
